@@ -23,7 +23,7 @@ now our files are cached in stage and we can `versioning` it.
 with `commit` argument for **git** command do it.  
 > git commit -m "add index.html to local repository (.git)"
 
-switch `-m` for above command is the _message_ that usually begins with a verb
+switch **-m** for above command is the _message_ that usually begins with a verb
 and describes about last commit.  
 until now we have one version of our project.  
 > git log
@@ -38,7 +38,7 @@ too instead of two command `git add` and `git commit`,
 we can use one command in below.  
 > git commit -a -m "changed index.html at Aug 9"  
 
--a -> automatically add.  
+**-a** -> automatically add.  
 note that use once from command `git status`. not required a lot.  
 all changes in local repo. for send my project in remote repository explain in below,  
 be carfule that before anything it used `git commit`,  
@@ -46,8 +46,22 @@ we must add a remote repo to our git.
 > git remote add origin https://github.com/shervin-h/my-first-repo  
 > git push -u origin master  
 
-origin is main remote repository. itself word origin can be any name.  
-switch -u is optional and master is branch that we work.  
+origin is main remote repository. itself word _origin_ can be any name.  
+switch **-u** is optional and **master** is _branch_ that we work.  
 now we connected to remote repo.
+
+run below command for remove origin or repository.  
+> git remote remove origin  
+
+too we can add many remote repo to our project. Example:  
+> git remote add origin https://myGitRepo  
+> git remote add server1 https://server1  
+> git remote add server2 https://server2  
+> git remote add ...  
+
+run below command until you see all remote repos.  
+> git remote -v  
+
+
 
  
