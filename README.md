@@ -47,7 +47,7 @@ we must add a remote repo to our git.
 > git push -u origin master  
 
 origin is main remote repository. itself word _origin_ can be any name.  
-switch **-u** is optional and **master** is _branch_ that we work.  
+switch **-u** or **--set-upstream** is optional - for every branch that is up to date or successfully pushed and **master** is _branch_ that we work.  
 now we connected to remote repo.
 
 run below command for remove origin or repository.  
