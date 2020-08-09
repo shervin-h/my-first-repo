@@ -7,7 +7,7 @@ for initial git
 > git init
 
 after `git init` we can introduce ourself to git.  
-> git config --global user.name "Shervin"
+> git config --global user.name "Shervin"  
 > git config --global user.email "shervin.hz07@gmail.com"
 
 after run this command, all files, directories and subdirectories, are tracked.  
