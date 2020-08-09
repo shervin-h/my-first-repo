@@ -3,7 +3,7 @@
 first make directory for php project and run `git init` command.  
 then folder **_`.git`_** creat in root dir.
 I practice below commands;
-for initial git
+for initial the git,  
 > git init
 
 after `git init` we can introduce ourself to git.  
@@ -19,13 +19,13 @@ run this command until files `added` in `stage`
 example:
 > git add index.html
 
-now our files are cached in stage and we can `versioning` it.  
+now our files are cached in stage, and we can `versioning` it.  
 with `commit` argument for **git** command do it.  
 > git commit -m "add index.html to local repository (.git)"
 
 switch **-m** for above command is the _message_ that usually begins with a verb
 and describes about last commit.  
-until now we have one version of our project.  
+until now, we have one version of our project.  
 > git log
 
 show commits with related hash.   
@@ -40,8 +40,8 @@ we can use one command in below.
 
 **-a** -> automatically add.  
 note that use once from command `git status`. not required a lot.  
-all changes in local repo. for send my project in remote repository explain in below,  
-be carfule that before anything it used `git commit`,  
+all changes in the local repo. for send my project in the remote repository explain in below,  
+be careful before anything it used `git commit`,  
 we must add a remote repo to our git.  
 > git remote add origin https://github.com/shervin-h/my-first-repo  
 > git push -u origin master  
@@ -61,7 +61,3 @@ too we can add many remote repo to our project. Example:
 
 run below command until you see all remote repos.  
 > git remote -v  
-
-
-
- 
