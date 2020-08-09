@@ -29,7 +29,7 @@ until now we have one version of our project.
 > git log
 
 show commits with related hash.   
-if we have many commits, _`it can seen in one line for each commit`_,  
+if we have many commits, _it can seen in one line for each commit_,  
 we can transfer between them by using below command,  
 > git checkout _related-hash_    
 > git log --oneline  
@@ -54,7 +54,7 @@ run below command for remove origin or repository.
 > git remote remove origin  
 
 too we can add many remote repo to our project. Example:  
-> git remote add origin https://myGitRepo  
+> git remote add origin https://github.com/myUserName/myGitRepo  
 > git remote add server1 https://server1  
 > git remote add server2 https://server2  
 > git remote add ...  
