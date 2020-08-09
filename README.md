@@ -31,14 +31,23 @@ until now we have one version of our project.
 show commits with related hash.   
 if we have many commits, _`it can seen in one line for each commit`_,  
 we can transfer between them by using below command,  
-> git checkout _related hash_    
+> git checkout _related-hash_    
 > git log --oneline  
 
 too instead of two command `git add` and `git commit`,  
 we can use one command in below.  
 > git commit -a -m "changed index.html at Aug 9"  
 
--a -> automatically add
+-a -> automatically add.  
 note that use once from command `git status`. not required a lot.  
+all changes in local repo. for send my project in remote repository explain in below,  
+be carfule that before anything it used `git commit`,  
+we must add a remote repo to our git.  
+> git remote add origin https://github.com/shervin-h/my-first-repo  
+> git push -u origin master  
+
+origin is main remote repository. itself word origin can be any name.  
+switch -u is optional and master is branch that we work.  
+now we connected to remote repo.
 
  
