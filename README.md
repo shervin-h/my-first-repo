@@ -29,8 +29,16 @@ until now we have one version of our project.
 > git log
 
 show commits with related hash.   
-if we have many commits, `_it can seen in one line for each commit_`,  
+if we have many commits, _`it can seen in one line for each commit`_,  
 we can transfer between them by using below command,  
-> git checkout <relaed hash>  
+> git checkout _related hash_    
 > git log --oneline  
+
+too instead of two command `git add` and `git commit`,  
+we can use one command in below.  
+> git commit -a -m "changed index.html at Aug 9"  
+
+-a -> automatically add
+note that use once from command `git status`. not required a lot.  
+
  
