@@ -19,7 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="500df293-5269-4033-af4d-b6e57b5c9eec" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="500df293-5269-4033-af4d-b6e57b5c9eec" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/sh.php" beforeDir="false" afterPath="$PROJECT_DIR$/sh.php" afterDir="false" />
+    </list>
+>>>>>>> fe7d575e02b3350727e0a78c5ae341054bbe544d
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +57,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597069067506</updated>
-      <workItem from="1597069068733" duration="2606000" />
+      <workItem from="1597069068733" duration="3407000" />
+      <workItem from="1597073296639" duration="337000" />
     </task>
     <servers />
   </component>
@@ -68,6 +75,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="791" y="479" width="399" height="156" key="NewPhpFileDialog" timestamp="1597071161496">
